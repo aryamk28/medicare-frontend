@@ -1714,3 +1714,166 @@ table th {
     color: white;
     font-weight: 600;
 }
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+
+    .page {
+        padding: 15px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px;
+    }
+
+    .navbar-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .cards-container,
+    .doctor-grid,
+    .service-grid,
+    .appointment-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .auth-form,
+    .appointment-form,
+    .contact-form {
+        width: 100%;
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .admin-container {
+        padding: 10px;
+    }
+
+    .admin-cards {
+        grid-template-columns: 1fr;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    input,
+    select,
+    textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+/* PROFILE PAGE MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+
+    .profile-container {
+        width: 95%;
+        padding: 20px;
+        margin: 20px auto;
+    }
+
+    .profile-card {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .profile-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .profile-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .profile-details {
+        width: 100%;
+    }
+
+    .profile-details p {
+        font-size: 14px;
+        word-break: break-word;
+    }
+
+    .profile-actions {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .profile-actions button {
+        width: 100%;
+    }
+
+    .profile-form {
+        width: 100%;
+    }
+
+    .profile-form input,
+    .profile-form select,
+    .profile-form textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .profile-form button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .profile-details {
+        flex-direction: column;
+    }
+
+    .profile-box {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .profile-details {
+        display: grid;
+        grid-template-columns: 1fr !important;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .profile-box {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .profile-card {
+        width: 100%;
+        overflow: hidden;
+    }
+}
